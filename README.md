@@ -106,6 +106,4 @@
 
 ### Deployment: Fully containerized and deployed using docker-compose.yml and the working ./setup.sh.
 
-### Video presentation -> https://drive.google.com/file/d/1qcZz8jj2GpR4VLJB76wlJ2l84qOD9uCF/view?usp=drive_link
-
 ### presentation slides -> https://drive.google.com/file/d/1AASKFCT2fu8jQY_ObgsgvLqRrbiIHVvS/view?usp=drive_link
