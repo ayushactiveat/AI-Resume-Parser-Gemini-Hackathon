@@ -69,7 +69,3 @@ API docs (Swagger UI): http://localhost:8000/docs
 **Matching.** `all-MiniLM-L6-v2` produces 384-dim sentence embeddings. The matcher embeds both the resume and the JD, takes cosine similarity over relevant sections, and returns a normalized score plus a list of JD requirements that don't have a strong match in the resume (the "gap analysis").
 
 **Failure handling.** Model calls are wrapped so a single inference failure doesn't take down the API — the worker logs and moves on, the API stays up, the user gets an error on that specific resume rather than a 500 across the system.
-
-## Slides
-
-Hackathon presentation: https://drive.google.com/file/d/1AASKFCT2fu8jQY_ObgsgvLqRrbiIHVvS/view?usp=drive_link
